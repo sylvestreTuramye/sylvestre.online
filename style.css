@@ -1,0 +1,270 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,rgb(0, 0, 0),rgb(167, 76, 216));
+    gap:5%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.home{
+    padding-top: 10%;
+    
+}
+.image img{
+    border-radius: 30px;
+}
+.navigation{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    height: 7rem;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 12px;
+}
+.links a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.links{
+    width: fit-content;
+    height: auto;
+    margin-left: 30%;
+    display: flex;
+    font-size: 30px;
+    gap: 40px
+}
+.links a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.socialmedia{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    font-size: 30px;
+    gap: 13px
+
+}
+.socialmedia img{
+    border-radius: 50%;
+}
+.resume{
+    border: 2px solid white;
+    font-size: 40px;
+    height: 90px;
+    margin: 13px 0px;
+    display: flex;
+    align-items: center;
+    width: 380px;
+    margin-right: 24px;
+}
+.resume a{
+color: white;
+text-decoration: none;
+}
+.resume:hover{
+    background-color: #ffffffff;
+    color: black;
+}
+.resume:hover a{
+    color: black;
+}
+.home{
+    margin: 5% 4%;
+    display: flex;
+    gap:20%;
+}
+.home-content{
+display:flex;
+flex-direction: column;
+color: aliceblue;
+}
+.home-content label{
+
+color: silver;
+width: fit-content;
+font-size:24px;
+justify-content: center;
+
+}
+.home-content h2{
+    border: 2px solid grey;
+    background-image: linear-gradient(violet,rgb(26, 24, 24),violet);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+
+#skills{
+    margin-top: 9%;
+    padding-top: 12%;
+}
+.skills{
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    border-radius: 70px;
+    text-align:center;
+    margin: 3%  auto;
+    width: 70%;
+    color: white;
+    transition: 1.5s ease;
+}
+.one{
+    font-size: 42px;
+    font-weight: bolder;
+}
+.paragraph-word span{
+    font-size: 23px;
+}
+.percetage{
+   display: flex;
+ justify-content: space-between;
+ margin: 12% 12%;
+}
+.c {
+    font-size: 30px;
+    border: 8px solid rgb(161, 60, 197);
+    border-right-color: white;
+    border-right-style:dotted;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  
+}
+.html{
+    font-size: 30px;
+    border:8px solid rgb(161, 60, 197);
+    border-right-color: white;
+    align-content: center;
+    border-right-style:dotted;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  
+
+}
+.html span{
+    margin-left: 30px;
+}
+.css {
+    font-size: 30px;
+    border: 8px solid rgb(161, 60, 197);    
+    border-right-color: white;
+    border-right-style:dotted;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+   align-content: center;
+}
+.css span{
+    margin-left: 30px;
+}
+.c span{
+    margin-left: 30px;
+}
+#project{
+    margin-top: 9%;
+    padding-top: 12%;
+    background-color: black;
+}
+.project{
+    
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    
+}
+.project-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    text-align: center;
+}
+.project-text span{
+    margin:23px 22%;
+}
+.project-text span:nth-child(1){
+    font-size: 30px;
+    font-weight: bolder;
+}
+.container img{
+    border-radius: 23px;
+}
+
+.container{
+    display: flex;
+    width: auto;
+    gap: 8%;
+    margin: 30px 24px;
+
+}
+
+.get-in-touch{
+    background-image: linear-gradient(to left,violet,rgb(234, 37, 234),rgb(128, 69, 128),indigo);
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    display: flex;
+    color: aliceblue;
+    margin-right: 22px;
+}
+.form input,button{
+    block-size: 50px;
+    color:white;
+    text-align: center;
+    font-size: 23px;
+    width: 220px;
+    border: 1px white solid;
+    background-color: rgb(223, 96, 223);
+    border-radius: 13px;
+}
+input:hover{
+    background-color: white;
+    color: black;
+}
+.form textarea:hover{
+    background-color: white;
+    color: black;
+}
+.form button{
+    background-color: rgb(55, 4, 82);
+    font-size: 23px;
+}
+.form button:hover{
+    background-color: white;
+    color: black;
+    font-size: 23px;
+}
+.form textarea{
+    border: 1px white solid;
+    background-color: rgb(223, 96, 223);
+    border-radius: 13px;
+    color:white;
+    font-size: 23px;
+    text-align: center;
+}
+::placeholder{
+    color: white;
+    font-size: 18px;
+    font-style: initial;
+    font-weight: bolder;
+
+}
+.footer{
+    background-color:black;
+    color: white;
+    align-items: center;
+    padding-left: 30%;
+
+    width:auto;
+    font-size: 30px;
+}
